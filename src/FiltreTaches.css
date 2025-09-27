@@ -1,0 +1,19 @@
+.filtre-taches {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.filtre-taches button {
+  background-color: #d9d9d9;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.filtre-taches button.actif {
+  background-color: black;
+  color: white;
+}/*# sourceMappingURL=FiltreTaches.css.map */

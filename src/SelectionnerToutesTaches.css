@@ -1,0 +1,26 @@
+.selectionner-toutes-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 10px 0;
+}
+
+.selectionner-toutes-btn:hover {
+  background-color: #0056b3;
+}
+
+.selectionner-toutes-btn:focus {
+  outline: none;
+}
+
+.selectionner-toutes-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}/*# sourceMappingURL=SelectionnerToutesTaches.css.map */

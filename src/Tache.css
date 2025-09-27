@@ -1,0 +1,76 @@
+.tache {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.tache-contenu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.tache-texte {
+  font-size: 1.2rem;
+  color: black;
+  max-width: 100%;
+  word-wrap: break-word;
+  word-break: break-word;
+}
+
+.btn-checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: white;
+}
+
+.completee .btn-checkbox {
+  background-color: black;
+  color: white;
+}
+
+.btn-supprimer {
+  margin-left: auto;
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.icone-poubelle {
+  width: 20px;
+  height: 20px;
+  color: black;
+}
+
+@media (min-width: 768px) {
+  .tache {
+    padding: 15px;
+    gap: 15px;
+    font-size: 1.3rem;
+  }
+  .tache-texte {
+    font-size: 1.4rem;
+  }
+  .btn-checkbox {
+    font-size: 16px;
+  }
+  .icone-poubelle {
+    width: 25px;
+    height: 25px;
+  }
+}/*# sourceMappingURL=Tache.css.map */

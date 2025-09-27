@@ -1,0 +1,34 @@
+.form-ajout {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input-ajout {
+  padding: 10px;
+  border: 2px solid rgba(0, 86, 179, 0.2);
+  border-radius: 5px;
+  width: 250px;
+}
+
+.btn-ajout {
+  background-color: rgba(0, 87, 179, 0.055);
+  color: rgba(0, 0, 0, 0.863);
+  padding: 10px 20px;
+  border: 2px solid rgba(0, 86, 179, 0.2);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-ajout:hover {
+  background-color: rgba(0, 86, 179, 0.8);
+  border: 2px solid rgba(0, 86, 179, 0.4);
+  color: white;
+}
+
+.btn-ajout:active {
+  background-color: rgba(0, 86, 179, 0.9);
+}/*# sourceMappingURL=SaisieTache.css.map */

@@ -1,0 +1,20 @@
+.liste-taches {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  .liste-taches {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    gap: 25px;
+  }
+}/*# sourceMappingURL=ListeTaches.css.map */
